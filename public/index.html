@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,7 +11,18 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
     <title>Home Page</title>
 </head>
+
 <body>
-    <h1>Welcome Home!</h1>
+    <div class="jumbotron">
+        <div class="container">
+            <h1 class="display-4">Welcome home!</h1>
+            <p class="lead">This is a simple website built with an express server on the backend.</p>
+            <hr class="my-4">
+            <p>Sign up for our guest list on our contact page.</p>
+            <a class="btn btn-primary btn-lg" href="/contact" role="button">Contact Us!</a>
+            <a class="btn btn-secondary btn-lg" href="/api/users" role="button">See Users API</a>
+        </div>
+    </div>
 </body>
+
 </html>

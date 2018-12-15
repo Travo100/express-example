@@ -10,7 +10,8 @@ app.use(express.json());
 var userList = [
     {
         "name": "Travis Thompson",
-        "email": "tthompson@bootcampspot.com"
+        "email": "tthompson@bootcampspot.com",
+        "message": "Love the site! Going to share this with all my friends!"
     }
 ];
 
